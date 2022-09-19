@@ -1,0 +1,136 @@
+/* 
+hacerlo responsive
+*/
+
+
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  width: 8rem;
+  min-height: 5rem;
+  max-height: 5rem;
+  border-radius: 0.5rem;
+  background-color: #f5f5f5;
+}
+
+.container.notFocus {
+  filter: brightness(0.5);
+}
+
+.container>div:nth-child(1) {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 0rem 0.2rem;
+  position: relative;
+}
+
+.container>div:nth-child(2) {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 0rem 0.2rem;
+  position: relative;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 10px;
+  color: #6C6692;
+}
+
+.pill {
+  border-radius: 1rem;
+  height: 20px;
+  color: #777E86;
+  font-size: 9px;
+  padding: 3px 3px 3px 10px;
+  gap: 10px;
+  display: flex;
+  color: white;
+  white-space: nowrap;
+  align-items: center;
+}
+
+
+.pill>div:nth-child(2) {
+  background-color: #D9E4FA;
+  color: #646C98;
+  padding: 0px 12px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.circle {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: white;
+  align-items: center;
+  color: black;
+}
+
+.circle:hover {
+  background-color: #d2d4da;
+  color: #646C98;
+  cursor: pointer;
+}
+
+
+
+.container .red {
+  background-color: #e7a8b2;
+}
+
+.container .red-2 {
+  background-color: #da4339;
+}
+
+.container .green {
+  background-color: #d4ffbf;
+}
+
+.container .green-2 {
+  background-color: #6cbb4c;
+}
+
+.container .lightblue {
+  background-color: #dbe3fc;
+}
+
+.container .lightblue-2 {
+  background-color: #6567ff;
+}
+
+.container .gray {
+  background-color: #dfe0e0;
+}
+
+.container .gray-2 {
+  background-color: #bababa;
+}
+
+.container .yellow {
+  background-color: #f8f7b5;
+}
+
+.container .yellow-2 {
+  background-color: #eccd45;
+}

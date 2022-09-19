@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "ciclo": "I",
+    "codigo": "10180",
+    "asignatura": "Precálculo*",
+    "descripcion": "",
+    "column": 1,
+    "prerequisite": 10
+  },
+  {
+    "id": 2,
+    "ciclo": "I",
+    "codigo": "",
+    "asignatura": "Optativa técnica I",
+    "descripcion": "Conoce los fundamentos de lógica en los que se basan los lenguajes de programación para poder construir soluciones computacionales.",
+    "column": 1,
+    "prerequisite": 2
+  },
+  {
+    "id": 3,
+    "ciclo": "I",
+    "codigo": "10142",
+    "asignatura": "Matemática discreta I",
+    "descripcion": "Conoce los fundamentos de lógica en los que se basan los lenguajes de programación para poder construir soluciones computacionales.",
+    "column": 1,
+    "prerequisite": 2
+  },
+  {
+    "id": 4,
+    "ciclo": "I",
+    "codigo": "190153",
+    "asignatura": "Fundamentos de programación",
+    "descripcion": "Aprende las características de los algoritmo y las bases para construirlos, así como tu primera experiencia con un lenguaje de programación.",
+    "column": 4,
+    "prerequisite": 2
+  },
+  {
+    "id": 5,
+    "ciclo": "II",
+    "codigo": "10112",
+    "asignatura": "Álgebra vectorial y matrices",
+    "descripcion": "",
+    "column": 2,
+    "prerequisite": 1
+  },
+  {
+    "id": 6,
+    "ciclo": "II",
+    "codigo": "10191",
+    "asignatura": "Calculo I",
+    "descripcion": "",
+    "column": 2,
+    "prerequisite": 4
+  },
+  {
+    "id": 7,
+    "ciclo": "II",
+    "codigo": "190154",
+    "asignatura": "Programación de estructuras dinámicas",
+    "descripcion": "Conoce las estructuras de datos y su suma importancia en la programación, y aprende a construirlas con un lenguaje de programación.",
+    "column": 2,
+    "prerequisite": 7
+  },
+  {
+    "id": 8,
+    "ciclo": "II",
+    "codigo": "10143",
+    "asignatura": "Fisica I",
+    "descripcion": "",
+    "column": 2,
+    "prerequisite": 1
+  },
+  {
+    "id": 9,
+    "ciclo": "III",
+    "codigo": "200068",
+    "asignatura": "Fisica I",
+    "descripcion": "",
+    "column": 3,
+    "prerequisite": 9
+  },
+  {
+    "id": 10,
+    "ciclo": "III",
+    "codigo": "10182",
+    "asignatura": "Calculo II",
+    "descripcion": "",
+    "column": 3,
+    "prerequisite": 1
+  },
+  {
+    "id": 11,
+    "ciclo": "III",
+    "codigo": "190175",
+    "asignatura": "Programación orientada a objetos",
+    "descripcion": "Aprende el paradigma orientado a objetos mediante un lenguaje de programación, la manera de programar más solicitada en la industria.",
+    "column": 3,
+    "prerequisite": 6
+  },
+  {
+    "id": 12,
+    "ciclo": "III",
+    "codigo": "190155",
+    "asignatura": "Base de datos",
+    "descripcion": "Conoce los fundamentos detrás del diseño e implementación de bases de datos y su utilidad y aplicación a contextos de la vida cotidiana.",
+    "column": 3,
+    "prerequisite": 11
+  },
+  {
+    "id": 13,
+    "ciclo": "IV",
+    "codigo": "200084",
+    "asignatura": "Electricidad y magnetismo",
+    "descripcion": "",
+    "column": 9,
+    "prerequisite": 12
+  },
+  {
+    "id": 14,
+    "ciclo": "IV",
+    "codigo": "10183",
+    "asignatura": "Cálculo III",
+    "descripcion": "",
+    "column": 6,
+    "prerequisite": 13
+  },
+  {
+    "id": 15,
+    "ciclo": "IV",
+    "codigo": "190156",
+    "asignatura": "Programación web",
+    "descripcion": "Adquiere los conocimientos y herramientas necesarias para el diseño e implementación de páginas web interactivas y funcionales.",
+    "column": 9,
+    "prerequisite": 13
+  },
+  {
+    "id": 16,
+    "ciclo": "IV",
+    "codigo": "190157",
+    "asignatura": "Administración de bases de datos",
+    "descripcion": "Conoce los fundamentos para añadir a una base de datos los elementos de administración y de seguridad necesarios para su funcionamiento",
+    "column": 9,
+    "prerequisite": 15
+  },
+  {
+    "id": 17,
+    "ciclo": "IV",
+    "codigo": "",
+    "asignatura": "Optativa humanístico\u0002social I",
+    "descripcion": "",
+    "column": 4,
+    "prerequisite": 16
+  },
+  {
+    "id": 18,
+    "ciclo": "V",
+    "codigo": "10141",
+    "asignatura": "Análisis numérico",
+    "descripcion": "Conoce los principales métodos numéricos implementables en un lenguaje de programación y aplicables a múltiples escenarios de ingeniería.",
+    "column": 4,
+    "prerequisite": 17
+  },
+  {
+    "id": 19,
+    "ciclo": "V",
+    "codigo": "190158",
+    "asignatura": "Redes de computadoras",
+    "descripcion": "Aprende los fundamentos detrás del funcionamiento de las redes de computadoras y los principios básicos para una correcta configuración",
+    "column": 4,
+    "prerequisite": 18
+  },
+  {
+    "id": 20,
+    "ciclo": "V",
+    "codigo": "190159",
+    "asignatura": "Programación de dispositivos móviles",
+    "descripcion": "Adquiere los conocimientos y herramientas necesarias para el diseño e implementación de aplicaciones para Android altamente interactivas",
+    "column": 5,
+    "prerequisite": 14
+  },
+  {
+    "id": 21,
+    "ciclo": "V",
+    "codigo": "190160",
+    "asignatura": "Análisis de sistemas",
+    "descripcion": "descripcion",
+    "column": 9,
+    "prerequisite": 19
+  },
+  {
+    "id": 22,
+    "ciclo": "V",
+    "codigo": "200069",
+    "asignatura": "Física II",
+    "descripcion": "Conoce las principales metologías para el análisis de un problema y el uso de esta información para el diseño de una solución computacional.",
+    "column": 4,
+    "prerequisite": 13
+  },
+  {
+    "id": 23,
+    "ciclo": "VI",
+    "codigo": "",
+    "asignatura": "Optativa humanístico\u0002social II",
+    "descripcion": "",
+    "column": 5,
+    "prerequisite": 15
+  },
+  {
+    "id": 24,
+    "ciclo": "VI",
+    "codigo": "190161",
+    "asignatura": "Análisis de algoritmo",
+    "descripcion": "Aprende las herramientas para medir la eficiencia de un algoritmo y poder seleccionar la opción más eficiente para un problema específico.",
+    "column": 5,
+    "prerequisite": 12
+  },
+  {
+    "id": 25,
+    "ciclo": "VI",
+    "codigo": "190162",
+    "asignatura": "Programación de artefactos",
+    "descripcion": "Adquiere las habilidades para programar a bajo nivel usando dispositivos y microcontroladores para la creación de aplicaciones en físico.",
+    "column": 5,
+    "prerequisite": 16
+  },
+  {
+    "id": 26,
+    "ciclo": "VI",
+    "codigo": "10118",
+    "asignatura": "Probabilidad y estadística",
+    "descripcion": "",
+    "column": 5,
+    "prerequisite": 16
+  },
+  {
+    "id": 27,
+    "ciclo": "VI",
+    "codigo": "190163",
+    "asignatura": "Seguridad en entornos de desarrollo",
+    "descripcion": "Conoce los conceptos y herramientas principales que permiten la detección de vulnerabilidades y su respectiva prevención y contención",
+    "column": 6,
+    "prerequisite": 18
+  },
+  {
+    "id": 28,
+    "ciclo": "VII",
+    "codigo": "190065",
+    "asignatura": "Arquitectura de computadoras",
+    "descripcion": "Conoce los componentes lógicos que conforman el hardware de una computadora, y aprende su manipulación directa mediante programación",
+    "column": 6,
+    "prerequisite": 17
+  },
+  {
+    "id": 29,
+    "ciclo": "VII",
+    "codigo": "190164",
+    "asignatura": "Técnicas de simulación en computadoras ",
+    "descripcion": "Conoce la metología y herramientas utilizadas en la representación de fenómenos físicos en la computadora para el análisis de casos reales",
+    "column": 6,
+    "prerequisite": 19
+  },
+  {
+    "id": 30,
+    "ciclo": "VII",
+    "codigo": "190165",
+    "asignatura": "Programación n-capas",
+    "descripcion": "Aprende los principios de diseño para la arquitectura de software en proyectos de desarrollo que involucren múltiples capas.",
+    "column": 6,
+    "prerequisite": 14
+  },
+  {
+    "id": 31,
+    "ciclo": "VII",
+    "codigo": "190176",
+    "asignatura": "Fundamentos de inteligencia de negocios",
+    "descripcion": "Adquiere las metologías principales del área de inteligencia de negocios, el enfoque analítico de bases de datos para toma de decisiones",
+    "column": 7,
+    "prerequisite": 24
+  },
+  {
+    "id": 32,
+    "ciclo": "VII",
+    "codigo": "",
+    "asignatura": "Optativa humanístico\u0002social III",
+    "descripcion": "",
+    "column": 7,
+    "prerequisite": 16
+  },
+  {
+    "id": 33,
+    "ciclo": "VIII",
+    "codigo": "190166",
+    "asignatura": "Sistemas operativos",
+    "descripcion": "Conoce el funcionamiento de los principales componentes de un sistema operativo y los algoritmos involucrados en su funcionamiento.",
+    "column": 7,
+    "prerequisite": 12
+  },
+  {
+    "id": 34,
+    "ciclo": "VIII",
+    "codigo": "190167",
+    "asignatura": "Programación declarativa",
+    "descripcion": "Aprende a programar bajo los paradigmas de programación lógica y programación funcional, y conoce sus características y aplicaciones",
+    "column": 8,
+    "prerequisite": 20
+  },
+  {
+    "id": 35,
+    "ciclo": "VIII",
+    "codigo": "190168",
+    "asignatura": "Ingeniería de software",
+    "descripcion": "Profundiza en el diseño y aplicación de las metodologías ágiles para la eficiencia en la administración proyectos de desarrollo de software.",
+    "column": 7,
+    "prerequisite": 23
+  },
+  {
+    "id": 36,
+    "ciclo": "VIII",
+    "codigo": "250055",
+    "asignatura": "Formulación y evaluación de proyectos",
+    "descripcion": "Conoce las metologías para la formulación de un proyecto de desarrollo de software y para la evaluación de su factibilidad y rentabilidad.",
+    "column": 1,
+    "prerequisite": 22
+  },
+  {
+    "id": 37,
+    "ciclo": "IX",
+    "codigo": "",
+    "asignatura": "Optativa humanístico\u0002social IV",
+    "descripcion": "",
+    "column": 8,
+    "prerequisite": 34
+  },
+  {
+    "id": 38,
+    "ciclo": "IX",
+    "codigo": "",
+    "asignatura": "Optativa técnica II",
+    "descripcion": "Profundiza los conocimientos adquiridos en un área específica de la carrera: seguridad, inteligencia de negocios, programación, entre otras",
+    "column": 8,
+    "prerequisite": 20
+  },
+  {
+    "id": 39,
+    "ciclo": "IX",
+    "codigo": "190169",
+    "asignatura": "Aplicaciones código abierto",
+    "descripcion": "Conoce las características, metologías, y particularidades legales, técnicas y económicas del desarrollo de código abierto y código libre",
+    "column": 8,
+    "prerequisite": 23
+  },
+  {
+    "id": 40,
+    "ciclo": "IX",
+    "codigo": "190170",
+    "asignatura": "Práctica profesional I",
+    "descripcion": "Administra un proyecto de desarrollo para un caso concreto con un cliente real, poniendo en práctica todo lo aprendido en la carrera.",
+    "column": 7,
+    "prerequisite": 22
+  }
+]
